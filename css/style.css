@@ -1,0 +1,125 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+p,a{
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Roboto', sans-serif; 
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: 500;
+    font-style:normal;
+    font-family: 'Montserrat', sans-serif;
+}
+span{
+    font-size: 26px;
+    font-weight: 700;
+    font-style: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+button{
+    color: white;
+}
+.header-color{
+    background-color:#FFF9F4;
+}
+.logo img{
+   padding-bottom: 20px;
+}
+.font-color1{
+    color: #FA804C;   
+}
+.font-color2{
+    color: #57325c;
+}
+#navbarNav .nav-item a{
+ color:#3C3C3C;
+}
+#navbarNav .menu-item{
+    margin: 0 15px;
+}
+.banner h1{
+    font-size: 60px;
+}
+.shoe-card{
+    border-radius:20px;
+}
+.footer-part{
+   padding: 0 15px;
+   background-color: white;
+}
+.card-image{
+    margin: 20px;
+    height: 350px;
+}
+#shoe .card-image{
+    border-radius: 20px;
+}
+.about-image img{
+    width: 580px;
+    height: 350px;
+    padding-left: 45px;
+}
+.box img{
+    width: 80px;
+    height: 80px;
+}
+.box{
+    height:135px;
+    width:490px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.icon{
+    height:60px;
+    width: 60px;
+    font-size: 40px;
+    color: cornflowerblue;
+}
+.icon:hover{
+    color: purple;
+}
+
+@media (max-width: 575.98px) {
+    p{
+        font-size: 18px;
+    }
+    .banner .banner-content{
+        flex-direction: column-reverse;
+    }
+    .about-content{
+        flex-direction: column-reverse;
+    }
+    .box{
+        width:300px;
+        height: 300px;
+        margin-top: 20px;
+    }
+    .about-image img{
+        width: 250px;
+        height: 180px;
+        margin-top: 20px;
+        padding:0 30px;
+    }
+    .contact-field{
+        width: 80%;
+    }
+ }
+@media (max-width: 767.98px) {
+    .card-image{
+        height: 450px;
+    }
+    .about-image img{
+        width: 380px;
+        height: 250px;
+        margin-top: 20px;
+    }
+  }
