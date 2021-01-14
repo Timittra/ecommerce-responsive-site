@@ -87,7 +87,6 @@ button{
 .icon:hover{
     color: purple;
 }
-
 @media (max-width: 575.98px) {
     p{
         font-size: 18px;
